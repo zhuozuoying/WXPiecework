@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/worker/worker",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/reg/reg"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e54e3",
+    "navigationBarTitleText": "微计件",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "image/icon_main.png",
+        "selectedIconPath": "image/icon_main.png",
+        "text": "微计"
+      },
+      {
+        "pagePath": "pages/worker/worker",
+        "iconPath": "image/icon_worker.png",
+        "selectedIconPath": "image/icon_worker.png",
+        "text": "工人"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "image/icon_my.png",
+        "selectedIconPath": "image/icon_my.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

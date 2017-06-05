@@ -1,0 +1,10 @@
+/* pages/reg/reg.wxss */
+@import "../common/lib/weui.wxss";
+
+.page-section{
+    margin-bottom: 20rpx;
+}
+
+.btn-ok {
+    margin-top: 200rpx;
+}

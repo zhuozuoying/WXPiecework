@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="page-body" style="width:300px">
+    <view class="page-section">
+      <view class="weui-cells__title" style="align-self: flex-start">营业执照公司名称（中文）:</view>
+      <view class="weui-cells weui-cells_after-title">
+        <input class="weui-input" auto-focus value="{{companyName}}" bindinput="bindNameInput" />
+      </view>
+    </view>
+
+    <view class="page-section" style="margin-top: 50rpx;">
+      <view class="weui-cells__title" style="align-self: flex-start">手机号码:</view>
+      <view class="weui-cells weui-cells_after-title">
+        <input class="weui-input" value="{{phoneNumber}}"bindinput="bindPhoneInput"/>
+      </view>
+    </view>
+
+    <view class="btn-ok" bindtap="tapOk">
+      <button style="color:#333333">确定</button>
+    </view>
+  </view>
+</view>

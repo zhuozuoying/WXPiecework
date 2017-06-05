@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"       background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  
+  <view class="index-desc">
+    个人用户（工人），请点击以下进行“绑定”
+  </view>
+  
+  <view class="btn" bindtap="tapBindFactory">
+    <button style="color:#333333">绑定工厂</button>
+  </view>
+
+  <view class="index-desc">
+    成为工厂管理员用户，请点击以下进行“注册”
+  </view>
+
+  <view class="btn" bindtap="tapRegister">
+    <button style="color:#333333">注册工厂</button>
+  </view>
+</view>
